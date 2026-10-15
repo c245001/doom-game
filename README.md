@@ -543,10 +543,7 @@ function loop(now) {
   if (running) animationId = requestAnimationFrame(loop);
 }
 
-background:
-  linear-gradient(#00140799, #000800cc),
-  url("doom.png") center 22% / cover,
-  #07150b;
+
 
 // 初期画面
 resetGame();
